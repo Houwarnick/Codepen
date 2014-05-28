@@ -1,6 +1,6 @@
 body {
-	overflow-x: hidden;
-	overflow-y: hidden;
+	/*overflow-x: hidden;
+	overflow-y: hidden;*/
 	background: #333 url(img/classy_fabric.png);
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
 	font-size: 13px;
@@ -14,13 +14,16 @@ body {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 .header-logo img{
 	width: 242px;
 	height: 40px;
 }
-
+.signup-form {
+	display: none;
+}
 .form-modal {
 	border: 10px solid #76daff;
 	box-shadow: 0 0 60px rgba(0,0,0,0.5);position: static;
